@@ -7,7 +7,7 @@ var btnSignUp = document.getElementById("btnSignUp");
 var alertElement = document.getElementById("alert");
 var alertName = document.getElementById("alertName");
 var alertEmail = document.getElementById("alertEmail");
-var localStorageName = "sharedData";
+var localStorageName = "sharedLoginData";
 var regexName = /^[a-zA-Z]{3,20}$/;
 var emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 

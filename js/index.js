@@ -5,7 +5,7 @@ var passwordInput = document.getElementById("passwordInput");
 var btnLogin = document.getElementById("btnLogin");
 var alertEmail = document.getElementById("alertEmail");
 var alertEmailPassword = document.getElementById("alertEmailPassword");
-var localStorageName = "sharedData";
+var localStorageName = "sharedLoginData";
 
 var usersList = [];
 

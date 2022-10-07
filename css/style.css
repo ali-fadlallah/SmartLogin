@@ -7,3 +7,8 @@ h2 {
 
     color: #17a2b8;
 }
+
+.login , .signup , .home{
+
+    width: 50%;
+}

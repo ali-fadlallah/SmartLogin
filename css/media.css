@@ -1,23 +1,35 @@
-
 @media screen and (max-width:979px) and (min-width:768px) {
 
-    #btnLogOut{
+    #btnLogOut {
 
-        width: 100%;
+        width     : 100%;
         margin-top: 10px;
-        color: white !important;
+        color     : white !important;
 
     }
+
+    .login, .signup  , .home{
+
+        width: 90%;
+
+    }
+
 
 }
 
 @media screen and (max-width:767px) and (min-width:501px) {
 
-    #btnLogOut{
+    #btnLogOut {
 
-        width: 100%;
+        width     : 100%;
         margin-top: 10px;
-        color: white !important;
+        color     : white !important;
+
+    }
+
+    .login , .signup , .home{
+
+        width: 90%;
 
     }
 
@@ -26,12 +38,18 @@
 @media screen and (max-width:500px) {
 
 
-    #btnLogOut{
+    #btnLogOut {
 
-        width: 100%;
+        width     : 100%;
         margin-top: 10px;
-        color: white !important;
+        color     : white !important;
 
     }
 
+
+    .login, .signup , .home {
+
+        width: 90%;
+
+    }
 }
