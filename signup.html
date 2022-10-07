@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <section>
+
+        <div class=" container w-50  mt-5 p-5 shadow-lg">
+
+            <div>
+                <h2 class=" text-center">Smart Login System</h2>
+
+                <form class="">
+
+                    <input class="form-control mt-3" type="text" placeholder="Enter your name" name="" id="nameInput">
+
+                    <div id="alertName" class=" alert alert-danger  mt-1 py-2 d-none">Invalid Name >> hint: characters
+                        english only from 3 to 20 characters</div>
+
+                    <input class="form-control mt-3" type="email" placeholder="Enter your email" name=""
+                        id="emailInput">
+
+                    <div id="alertEmail" class=" alert alert-danger  mt-1 py-2 d-none">Invalid Email</div>
+
+                    <input class="form-control mt-3" type="password" placeholder="Enter your password" name=""
+                        id="passwordInput">
+
+                    <div id="alert" class=" alert alert-danger  mt-1 py-2 d-none"></div>
+
+                    <button id="btnSignUp" class="btn btn-outline-info w-100 me-auto mt-3" type="button">SignUp</button>
+
+                    <h6 class="text-white text-center mt-3">You have an account? <span> <a
+                                class=" text-decoration-none text-white" href="index.html">SignIn</a></span></h6>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="js/signup.js"></script>
+
+</body>
+
+</html>
