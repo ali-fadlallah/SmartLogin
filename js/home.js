@@ -20,6 +20,6 @@ btnLogOut.addEventListener("click", logOut);
 
 function logOut() {
 
-    window.location.href = window.location.href.replace("/home.html" ,"/index.html");
+    window.location.href = window.location.href.replace("/home.html", "/index.html");
 
 }
