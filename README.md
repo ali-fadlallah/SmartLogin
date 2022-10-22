@@ -1,3 +1,3 @@
 # Smart Login
 
-new update
+https://ali-fadlallah.github.io/SmartLogin
